@@ -1,3 +1,4 @@
+#Question 4: Second part. Plot the analytical and FFT algorithm result.
 import numpy as np
 import matplotlib.pyplot as plt
 f=open("Q_4.txt","r")           #Read the data obtained from C.
