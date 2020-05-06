@@ -8,7 +8,7 @@ x_min=-5
 x_max=5
 x=np.linspace(x_min,x_max,N)
 Dx=x[1]-x[0]
-fx=np.ones(N)
+fx=np.ones(N) #Defining the constant function f(x)=1
 
 FTfx=np.fft.fft(fx,norm='ortho')
 k =2*np.pi* np.fft.fftfreq(N, d=Dx)
