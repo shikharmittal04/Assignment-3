@@ -28,7 +28,7 @@ plt.grid(True)
 
 ##################################################################
 
-f=open("Q_2.txt","r")           #Read the data obtained from C.
+f=open("Q_2.txt","r")           #Read the data obtained from Q2.c
 Data=f.readlines()
 i=0
 K=np.zeros(N) 
