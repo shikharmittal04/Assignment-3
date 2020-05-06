@@ -13,7 +13,7 @@ for N in range(4,256):
     
     x=np.linspace(x_min,x_max,N)
     Dx=x[1]-x[0]
-    fx=1/(x**2+1)   #This only an example. I have generated the using a Lorentzian.
+    fx=1/(x**2+1)   #This is only an example. I have generated the numbers using a Lorentzian.
 ##################################################################
 # Direct computation of Fourier transform
     st1=timer()
